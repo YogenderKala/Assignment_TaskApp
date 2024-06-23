@@ -14,17 +14,19 @@
    git clone https://github.com/YogenderKala/Assignment_TaskApp.git
    cd Assignment_TaskApp
    
-2. **Start backend server**   
-cd backend
-npm install
-npm start
+2. **Start backend server**
+   ```bash
+   cd backend
+   npm install
+   npm start
 
 3. **Starting frontend**
+   ```bash
    cd ../frontend/TaskApp
    npm install
    npm run dev
    
-4. **API endpoints**
+5. **API endpoints**
     GET /api/tasks - Retrieve all tasks
     POST /api/tasks - Create a new task
     DELETE /api/tasks/:id - Delete a task by ID
