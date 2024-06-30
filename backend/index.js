@@ -8,7 +8,7 @@ app.use(cors());
 app.use(express.json());
 
 mongoose
-  .connect("mongodb+srv://yogigotnochill:yogigotnochill@cluster0.ezafbq1.mongodb.net/", {
+  .connect("MONGODB_URI", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
   })
